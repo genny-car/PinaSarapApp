@@ -24,6 +24,7 @@
         app:layout_constraintVertical_bias="0.167" />
 
     <Button
+        android:id="@+id/btnsignup"
         android:layout_width="308dp"
         android:layout_height="50dp"
         android:background="@drawable/btn_bg"
@@ -40,14 +41,15 @@
         app:layout_constraintVertical_bias="0.741" />
 
     <EditText
+        android:id="@+id/txtuser"
         android:layout_width="308dp"
         android:layout_height="50dp"
         android:background="@drawable/edit_text_border"
         android:ems="10"
         android:fontFamily="@font/poppins"
+        android:hint="Username"
         android:inputType="textPersonName"
         android:paddingStart="16dp"
-        android:text="Username"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
@@ -56,14 +58,15 @@
         app:layout_constraintVertical_bias="0.314" />
 
     <EditText
+        android:id="@+id/txtconpass"
         android:layout_width="308dp"
         android:layout_height="50dp"
         android:background="@drawable/edit_text_border"
         android:ems="10"
         android:fontFamily="@font/poppins"
+        android:hint="Confirm Password"
         android:inputType="textPersonName"
         android:paddingStart="16dp"
-        android:text="Confirm Password"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
@@ -72,14 +75,15 @@
         app:layout_constraintVertical_bias="0.58" />
 
     <EditText
+        android:id="@+id/txtpass"
         android:layout_width="308dp"
         android:layout_height="50dp"
         android:background="@drawable/edit_text_border"
         android:ems="10"
         android:fontFamily="@font/poppins"
+        android:hint="Password"
         android:inputType="textPersonName"
         android:paddingStart="16dp"
-        android:text="Password"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
@@ -88,14 +92,15 @@
         app:layout_constraintVertical_bias="0.49" />
 
     <EditText
+        android:id="@+id/txtemail"
         android:layout_width="308dp"
         android:layout_height="50dp"
         android:background="@drawable/edit_text_border"
         android:ems="10"
         android:fontFamily="@font/poppins"
+        android:hint="E-mail"
         android:inputType="textPersonName"
         android:paddingStart="16dp"
-        android:text="E-mail"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
@@ -110,6 +115,25 @@
         android:fontFamily="@font/poppins_medium"
         android:text="Already have an account?"
         android:textAllCaps="false"
-        tools:layout_editor_absoluteX="81dp"
-        tools:layout_editor_absoluteY="555dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.361"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.812" />
+
+    <Button
+        android:id="@+id/btnreg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00FFFFFF"
+        android:fontFamily="@font/poppins_medium"
+        android:text="Sign In"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.829"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.812" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -30,11 +30,14 @@ public class MainActivity extends AppCompatActivity {
         progressBar.setScaleY(3f);
 
         progressAnimation();
+
     }
     public void progressAnimation(){
         LoadingScreenAnimation anim = new LoadingScreenAnimation(this, progressBar, loadingtxt, 0f, 100f);
         anim.setDuration(5000);
         progressBar.setAnimation(anim);
+
     }
+
 }
 
