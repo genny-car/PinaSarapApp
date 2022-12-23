@@ -13,4 +13,5 @@
         <item name="android:statusBarColor">#D30000</item>
         <!-- Customize your theme here. -->
     </style>
+
 </resources>
