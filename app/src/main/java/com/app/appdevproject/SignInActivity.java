@@ -19,7 +19,7 @@ import com.google.firebase.database.FirebaseDatabase;
 
 public class SignInActivity extends AppCompatActivity {
 
-    Button signinbtn, registerbtn;
+    Button signinbtn, registerbtn, forgotpass;
     EditText emailt, passwordt;
 
     FirebaseDatabase database;
@@ -35,6 +35,7 @@ public class SignInActivity extends AppCompatActivity {
 
         signinbtn = (Button) findViewById(R.id.signinbtn);
         registerbtn = (Button) findViewById(R.id.registerbtn);
+        forgotpass = (Button) findViewById(R.id.forgotpass);
         mAuth = FirebaseAuth.getInstance();
 
         signinbtn.setOnClickListener(view -> {
@@ -42,6 +43,9 @@ public class SignInActivity extends AppCompatActivity {
         });
         registerbtn.setOnClickListener(view -> {
             startActivity(new Intent(SignInActivity.this, SignUpActivity.class));
+        });
+        forgotpass.setOnClickListener(view -> {
+            startActivity(new Intent(SignInActivity.this, forgot_password.class));
         });
     }
 
