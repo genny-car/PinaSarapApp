@@ -26,7 +26,7 @@
             tools:layout_editor_absoluteX="7dp">
 
             <Button
-                android:id="@+id/button4"
+                android:id="@+id/btn1"
                 android:layout_height="130dp"
                 android:layout_columnWeight="1"
                 android:layout_margin="5sp"
@@ -36,7 +36,7 @@
                 android:textAllCaps="false" />
 
             <Button
-                android:id="@+id/button4"
+                android:id="@+id/btn2"
                 android:layout_height="130dp"
                 android:layout_columnWeight="1"
                 android:layout_margin="5sp"
@@ -46,7 +46,7 @@
                 android:textAllCaps="false" />
 
             <Button
-                android:id="@+id/button4"
+                android:id="@+id/btn3"
                 android:layout_height="130dp"
                 android:layout_columnWeight="1"
                 android:layout_margin="5sp"
@@ -56,7 +56,7 @@
                 android:textAllCaps="false" />
 
             <Button
-                android:id="@+id/button4"
+                android:id="@+id/btn4"
                 android:layout_height="130dp"
                 android:layout_columnWeight="1"
                 android:layout_margin="5sp"
@@ -66,7 +66,7 @@
                 android:textAllCaps="false" />
 
             <Button
-                android:id="@+id/button4"
+                android:id="@+id/btn5"
                 android:layout_height="130dp"
                 android:layout_columnWeight="1"
                 android:layout_margin="5sp"
@@ -76,7 +76,7 @@
                 android:textAllCaps="false" />
 
             <Button
-                android:id="@+id/button4"
+                android:id="@+id/btn6"
                 android:layout_height="130dp"
                 android:layout_columnWeight="1"
                 android:layout_margin="5sp"
@@ -86,7 +86,7 @@
                 android:textAllCaps="false" />
 
             <Button
-                android:id="@+id/button4"
+                android:id="@+id/btn7"
                 android:layout_height="130dp"
                 android:layout_columnWeight="1"
                 android:layout_margin="5sp"
@@ -96,17 +96,17 @@
                 android:textAllCaps="false" />
 
             <Button
-                android:id="@+id/button4"
+                android:id="@+id/btn8"
                 android:layout_height="130dp"
                 android:layout_columnWeight="1"
                 android:layout_margin="5sp"
                 android:background="@drawable/location_btn"
                 android:fontFamily="@font/poppins_medium"
                 android:text="Button"
-                android:textAllCaps="false"
+                android:textAllCaps="false"/>
 
             <Button
-                android:id="@+id/button4"
+                android:id="@+id/btn9"
                 android:layout_height="130dp"
                 android:layout_columnWeight="1"
                 android:layout_margin="5sp"
@@ -116,7 +116,7 @@
                 android:textAllCaps="false" />
 
             <Button
-                android:id="@+id/button4"
+                android:id="@+id/btn10"
                 android:layout_height="130dp"
                 android:layout_columnWeight="1"
                 android:layout_margin="5sp"
