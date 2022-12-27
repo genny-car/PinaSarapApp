@@ -2,16 +2,12 @@ package com.app.appdevproject;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.content.Intent;
 import android.os.Bundle;
-import android.os.Handler;
 import android.view.WindowManager;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
-import org.w3c.dom.Text;
-
-public class MainActivity extends AppCompatActivity {
+public class SplashScreen extends AppCompatActivity {
 
     ProgressBar progressBar;
     TextView loadingtxt;

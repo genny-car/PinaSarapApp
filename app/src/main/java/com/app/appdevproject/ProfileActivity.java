@@ -22,7 +22,7 @@ public class ProfileActivity extends AppCompatActivity {
 
         btnlogout.setOnClickListener(view -> {
             mAuth.signOut();
-            startActivity(new Intent(ProfileActivity.this,MainActivity.class));
+            startActivity(new Intent(ProfileActivity.this, SplashScreen.class));
         });
     }
 }
