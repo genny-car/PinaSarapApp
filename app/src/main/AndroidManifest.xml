@@ -16,7 +16,7 @@
         android:theme="@style/Theme.AppdevProject"
         tools:targetApi="31">
         <activity
-            android:name=".Main"
+            android:name=".BottomNav"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
