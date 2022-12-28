@@ -6,10 +6,54 @@
     tools:context=".HomeFragment">
 
     <TextView
+        android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/home_fragment"
-        android:textSize="20sp"
-        android:layout_gravity="center" />
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="60dp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Home"
+        android:textColor="#090909"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/luzon"
+        android:layout_width="308dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="50sp"
+        android:layout_marginTop="120sp"
+        android:background="@drawable/home_btn"
+        android:fontFamily="@font/poppins_medium"
+        android:text="Luzon"
+        android:textAllCaps="false"
+        android:textColor="#FAF9F9"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/visayas"
+        android:layout_width="308dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="50sp"
+        android:layout_marginTop="300sp"
+        android:background="@drawable/home_btn"
+        android:fontFamily="@font/poppins_medium"
+        android:text="Visayas"
+        android:textAllCaps="false"
+        android:textColor="#FAF9F9"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/mindanao"
+        android:layout_width="308dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="50sp"
+        android:layout_marginTop="480sp"
+        android:background="@drawable/home_btn"
+        android:fontFamily="@font/poppins_medium"
+        android:text="Mindanao"
+        android:textAllCaps="false"
+        android:textColor="#FAF9F9"
+        android:textSize="25dp" />
+
 </FrameLayout>
 

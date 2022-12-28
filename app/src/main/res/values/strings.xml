@@ -8,4 +8,18 @@
     <string name="saved_fragment">Saved Fragment</string>
     <string name="profile_fragment">Profile Fragment</string>
     <string name="home_fragment">Home Fragment</string>
+    <string name="profilepage">Profile</string>
+    <string name="todo">TODO</string>
+    <string name="fullname">Fullname</string>
+    <string name="firstname">Firstname</string>
+    <string name="lastname">Lastname</string>
+    <string name="username">Username</string>
+    <string name="email">Email</string>
+    <string name="fname">Firstname</string>
+    <string name="lname">Lastname</string>
+    <string name="uname">Username</string>
+    <string name="email_">Email</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="change_password">Change Password</string>
+    <string name="log_out">Log Out</string>
 </resources>
