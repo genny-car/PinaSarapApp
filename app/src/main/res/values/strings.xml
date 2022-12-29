@@ -22,4 +22,10 @@
     <string name="edit_profile">Edit Profile</string>
     <string name="change_password">Change Password</string>
     <string name="log_out">Log Out</string>
+    <string name="edit_profile_page">Edit Profile</string>
+    <string name="save">Save</string>
+    <string name="pemail">Email</string>
+    <string name="pfirstname">Firstname</string>
+    <string name="plastname">Lastname</string>
+    <string name="pusername">Username</string>
 </resources>
