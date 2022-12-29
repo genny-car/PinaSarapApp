@@ -38,6 +38,22 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.776" />
 
+    <Button
+        android:id="@+id/back_btn1"
+        android:layout_width="177dp"
+        android:layout_height="49dp"
+        android:background="@drawable/btn_bg"
+        android:fontFamily="@font/poppins"
+        android:text="Back"
+        android:textAllCaps="false"
+        android:textColor="#FBFBFB"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.869" />
+
     <EditText
         android:id="@+id/editTextTextPersonName3"
         android:layout_width="308dp"
