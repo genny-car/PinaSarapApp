@@ -7,180 +7,20 @@
     tools:context=".Luzon">
 
 
-    <ScrollView
-        android:id="@+id/scrollView3"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        app:layout_constraintTop_toBottomOf="@+id/textView6"
-        tools:layout_editor_absoluteX="0dp">
-
-        <GridLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_margin="16dp"
-            android:layout_marginTop="132dp"
-            android:columnCount="2"
-            android:rowCount="8"
-            app:layout_constraintTop_toTopOf="parent"
-            tools:layout_editor_absoluteX="7dp">
-
-            <Button
-                android:id="@+id/btn1"
-                android:layout_height="130dp"
-                android:layout_columnWeight="1"
-                android:layout_margin="5sp"
-                android:background="@drawable/location_btn"
-                android:fontFamily="@font/poppins_medium"
-                android:text="Button"
-                android:textAllCaps="false" />
-
-            <Button
-                android:id="@+id/btn2"
-                android:layout_height="130dp"
-                android:layout_columnWeight="1"
-                android:layout_margin="5sp"
-                android:background="@drawable/location_btn"
-                android:fontFamily="@font/poppins_medium"
-                android:text="Button"
-                android:textAllCaps="false" />
-
-            <Button
-                android:id="@+id/btn3"
-                android:layout_height="130dp"
-                android:layout_columnWeight="1"
-                android:layout_margin="5sp"
-                android:background="@drawable/location_btn"
-                android:fontFamily="@font/poppins_medium"
-                android:text="Button"
-                android:textAllCaps="false" />
-
-            <Button
-                android:id="@+id/btn4"
-                android:layout_height="130dp"
-                android:layout_columnWeight="1"
-                android:layout_margin="5sp"
-                android:background="@drawable/location_btn"
-                android:fontFamily="@font/poppins_medium"
-                android:text="Button"
-                android:textAllCaps="false" />
-
-            <Button
-                android:id="@+id/btn5"
-                android:layout_height="130dp"
-                android:layout_columnWeight="1"
-                android:layout_margin="5sp"
-                android:background="@drawable/location_btn"
-                android:fontFamily="@font/poppins_medium"
-                android:text="Button"
-                android:textAllCaps="false" />
-
-            <Button
-                android:id="@+id/btn6"
-                android:layout_height="130dp"
-                android:layout_columnWeight="1"
-                android:layout_margin="5sp"
-                android:background="@drawable/location_btn"
-                android:fontFamily="@font/poppins_medium"
-                android:text="Button"
-                android:textAllCaps="false" />
-
-            <Button
-                android:id="@+id/btn7"
-                android:layout_height="130dp"
-                android:layout_columnWeight="1"
-                android:layout_margin="5sp"
-                android:background="@drawable/location_btn"
-                android:fontFamily="@font/poppins_medium"
-                android:text="Button"
-                android:textAllCaps="false" />
-
-            <Button
-                android:id="@+id/btn8"
-                android:layout_height="130dp"
-                android:layout_columnWeight="1"
-                android:layout_margin="5sp"
-                android:background="@drawable/location_btn"
-                android:fontFamily="@font/poppins_medium"
-                android:text="Button"
-                android:textAllCaps="false"/>
-
-            <Button
-                android:id="@+id/btn9"
-                android:layout_height="130dp"
-                android:layout_columnWeight="1"
-                android:layout_margin="5sp"
-                android:background="@drawable/location_btn"
-                android:fontFamily="@font/poppins_medium"
-                android:text="Button"
-                android:textAllCaps="false" />
-
-            <Button
-                android:id="@+id/btn10"
-                android:layout_height="130dp"
-                android:layout_columnWeight="1"
-                android:layout_margin="5sp"
-                android:background="@drawable/location_btn"
-                android:backgroundTint="#F0F5F9"
-                android:fontFamily="@font/poppins_medium"
-                android:text="Button"
-                android:textAllCaps="false" />
-
-        </GridLayout>
-    </ScrollView>
-
     <TextView
         android:id="@+id/textView6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="88dp"
         android:fontFamily="@font/poppins_bold"
-        android:text="Luzon"
+        android:text="@string/luzon"
         android:textColor="#d30000"
-        android:textSize="30sp"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.052"
+        app:layout_constraintHorizontal_bias="0.119"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <ImageButton
-        android:id="@+id/imageButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:backgroundTint="#00FFFFFF"
-        app:srcCompat="@drawable/home_button"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="713dp" />
-
-    <ImageButton
-        android:id="@+id/imageButton4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:backgroundTint="#3EFFFFFF"
-        app:srcCompat="@drawable/profile"
-        tools:layout_editor_absoluteX="184dp"
-        tools:layout_editor_absoluteY="720dp" />
-
-    <ImageButton
-        android:id="@+id/imageButton5"
-        android:layout_width="33dp"
-        android:layout_height="41dp"
-        android:backgroundTint="#00FFFFFF"
-        app:srcCompat="@drawable/saved"
-        tools:layout_editor_absoluteX="318dp"
-        tools:layout_editor_absoluteY="720dp" />
-
-    <SearchView
-        android:id="@+id/searchView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginHorizontal="16dp"
-        android:background="@drawable/searchview"
-        android:iconifiedByDefault="false"
-        android:queryBackground="@android:color/transparent"
-        android:queryHint="Search"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="25dp" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.045" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
