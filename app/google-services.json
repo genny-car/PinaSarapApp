@@ -1,33 +1,34 @@
 {
   "project_info": {
-    "project_number": "56553469199",
-    "project_id": "pinasarap-361fb",
-    "storage_bucket": "pinasarap-361fb.appspot.com"
+    "project_number": "689639678401",
+    "firebase_url": "https://pinasarap2-default-rtdb.firebaseio.com",
+    "project_id": "pinasarap2",
+    "storage_bucket": "pinasarap2.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:56553469199:android:29bd5a4d4aaf79fcd37a7a",
+        "mobilesdk_app_id": "1:689639678401:android:efec060c1087a2a3ec8f40",
         "android_client_info": {
           "package_name": "com.app.appdevproject"
         }
       },
       "oauth_client": [
         {
-          "client_id": "56553469199-389gtbfuqomget58bgk58k0thkc6b16q.apps.googleusercontent.com",
+          "client_id": "689639678401-d7bj38vujgqlgek8l5buqmep3p9jh41m.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBJKGno4sXFQmHa2gqHrf5WYfqs8n3gzsk"
+          "current_key": "AIzaSyBG6xzkRfIV27wNRv4hDBgqZZPefHBCPN0"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "56553469199-389gtbfuqomget58bgk58k0thkc6b16q.apps.googleusercontent.com",
+              "client_id": "689639678401-d7bj38vujgqlgek8l5buqmep3p9jh41m.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

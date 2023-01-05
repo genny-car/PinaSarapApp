@@ -1,9 +1,11 @@
 package com.app.appdevproject;
 
-public class Database {
+public class profdata {
     String fname,lname,username,email,password;
+    public profdata(){
 
-    public Database(String fname, String lname, String username, String email, String password) {
+    }
+    public profdata(String fname, String lname, String username, String email, String password) {
         this.fname = fname;
         this.lname = lname;
         this.username = username;

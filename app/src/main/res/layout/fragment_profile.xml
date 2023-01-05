@@ -87,7 +87,7 @@
         android:textSize="18sp" />
 
     <TextView
-        android:id="@+id/fname"
+        android:id="@+id/firstName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="170dp"
@@ -98,7 +98,7 @@
         android:textSize="18sp" />
 
     <TextView
-        android:id="@+id/lname"
+        android:id="@+id/lastName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="170dp"
@@ -120,7 +120,7 @@
         android:textSize="18sp" />
 
     <TextView
-        android:id="@+id/email"
+        android:id="@+id/uemail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="170dp"
