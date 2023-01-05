@@ -22,11 +22,11 @@
         android:layout_height="150dp"
         android:layout_marginLeft="50sp"
         android:layout_marginTop="120sp"
-        android:background="@drawable/home_btn"
+        android:background="@drawable/loc_btn"
         android:fontFamily="@font/poppins_medium"
         android:text="Luzon"
         android:textAllCaps="false"
-        android:textColor="#FAF9F9"
+        android:textColor="#FFFCFC"
         android:textSize="25dp" />
 
     <Button
@@ -35,11 +35,11 @@
         android:layout_height="150dp"
         android:layout_marginLeft="50sp"
         android:layout_marginTop="300sp"
-        android:background="@drawable/home_btn"
+        android:background="@drawable/loc_btn"
         android:fontFamily="@font/poppins_medium"
         android:text="Visayas"
         android:textAllCaps="false"
-        android:textColor="#FAF9F9"
+        android:textColor="#FFFFFF"
         android:textSize="25dp" />
 
     <Button
@@ -48,11 +48,11 @@
         android:layout_height="150dp"
         android:layout_marginLeft="50sp"
         android:layout_marginTop="480sp"
-        android:background="@drawable/home_btn"
+        android:background="@drawable/loc_btn"
         android:fontFamily="@font/poppins_medium"
         android:text="Mindanao"
         android:textAllCaps="false"
-        android:textColor="#FAF9F9"
+        android:textColor="#FFFFFF"
         android:textSize="25dp" />
 
 </FrameLayout>
