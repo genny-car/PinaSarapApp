@@ -34,7 +34,7 @@ public class LoadingScreenAnimation extends Animation {
         loadingtxt.setText((int)value+" %");
 
             if (value == to){
-                context.startActivity(new Intent(context, SignInActivity.class));
+                context.startActivity(new Intent(context, AfterSplashScreen.class));
             }
     }
 }

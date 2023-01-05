@@ -17,7 +17,7 @@
         android:textSize="30dp" />
 
     <Button
-        android:id="@+id/luzon"
+        android:id="@+id/luzon_btn"
         android:layout_width="308dp"
         android:layout_height="150dp"
         android:layout_marginLeft="50sp"
@@ -30,7 +30,7 @@
         android:textSize="25dp" />
 
     <Button
-        android:id="@+id/visayas"
+        android:id="@+id/visayas_btn"
         android:layout_width="308dp"
         android:layout_height="150dp"
         android:layout_marginLeft="50sp"
@@ -43,7 +43,7 @@
         android:textSize="25dp" />
 
     <Button
-        android:id="@+id/mindanao"
+        android:id="@+id/mindanao_btn"
         android:layout_width="308dp"
         android:layout_height="150dp"
         android:layout_marginLeft="50sp"

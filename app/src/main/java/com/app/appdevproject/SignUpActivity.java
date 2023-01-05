@@ -4,6 +4,7 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.media.Image;
 import android.nfc.Tag;
 import android.os.Bundle;
 import android.text.TextUtils;
@@ -11,6 +12,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageButton;
 import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnCompleteListener;
@@ -31,6 +33,7 @@ import java.util.Map;
 public class SignUpActivity extends AppCompatActivity {
     //initialization
     Button btnsignup;
+    ImageButton back_btn5;
     EditText txtfname,txtlname,txtuser, txtemail, txtpass;
 
     FirebaseUser user;
@@ -50,7 +53,12 @@ public class SignUpActivity extends AppCompatActivity {
 
         mAuth = FirebaseAuth.getInstance();
         btnsignup = (Button) findViewById(R.id.btnsignup);
+        back_btn5 = (ImageButton) findViewById(R.id.back_btn5);
 
+
+        back_btn5.setOnClickListener(view -> {
+            startActivity(new Intent(SignUpActivity.this,SignInActivity.class));
+                });
 
 
         btnsignup.setOnClickListener(new View.OnClickListener() {
@@ -82,13 +90,13 @@ public class SignUpActivity extends AppCompatActivity {
                     mAuth.createUserWithEmailAndPassword(emailtxt,passwordtxt).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
                         @Override
                         public void onComplete(@NonNull Task<AuthResult> task) {
-                            if(task.isSuccessful()){ user = FirebaseAuth.getInstance().getCurrentUser();
+                            if(task.isSuccessful()){user = FirebaseAuth.getInstance().getCurrentUser();
                                profdata prof = new profdata(fnametxt,lnametxt,usernametxt,emailtxt,passwordtxt);
                                db.getInstance().getReference("profdata").child(user.getUid())
                                        .setValue(prof).addOnCompleteListener(new OnCompleteListener<Void>() {
                                            @Override
                                            public void onComplete(@NonNull Task<Void> task) {
-                                               Toast.makeText(SignUpActivity.this, "Regisetered Successfully", Toast.LENGTH_SHORT).show();
+                                               Toast.makeText(SignUpActivity.this, "Registered Successfully", Toast.LENGTH_SHORT).show();
                                                startActivity(new Intent(SignUpActivity.this, SignInActivity.class));
                                            }
                                        });

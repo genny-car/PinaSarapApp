@@ -75,7 +75,6 @@
     <string name="enter_current_password">Enter Current Password</string>
     <string name="new_password_">New Password</string>
     <string name="change_password_">Change Password</string>
-    <string name="luzon">Luzon</string>
     <string name="back">TODO</string>
     <string name="ilocos_sur">Ilocos Sur</string>
     <string name="region_i">Region I</string>
@@ -91,9 +90,7 @@
     <string name="region_iv_a_calabarzon">Region IV A - CALABARZON</string>
     <string name="national_capital_region_ncr">National Capital Region (NCR)</string>
     <string name="region_ii_cagayan_valley">Region II (Cagayan Valley)</string>
-    <string name="luzon">Luzon</string>
     <string name="ilocos_norte_region_i">Region I -</string>
     <string name="rI_ilocos_norte">Ilocos Norte</string>
     <string name="vigan_longganisa">Vigan Longganisa</string>
-    <string name="luzon">Luzon</string>
 </resources>

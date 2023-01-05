@@ -52,7 +52,7 @@ public class ProfileFragment extends Fragment {
         change_pass_btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getActivity(), forgot_password.class);
+                Intent intent = new Intent(getActivity(), Change_password.class);
                 startActivity(intent);
             }
         });

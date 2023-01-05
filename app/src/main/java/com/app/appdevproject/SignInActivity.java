@@ -23,7 +23,7 @@ public class SignInActivity extends AppCompatActivity {
     EditText emailt, passwordt;
 
     FirebaseDatabase database;
-    private FirebaseAuth mAuth;
+    private FirebaseAuth nAuth;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,7 +36,7 @@ public class SignInActivity extends AppCompatActivity {
         signinbtn = (Button) findViewById(R.id.signinbtn);
         registerbtn = (Button) findViewById(R.id.registerbtn);
         forgotpass = (Button) findViewById(R.id.forgotpass);
-        mAuth = FirebaseAuth.getInstance();
+        nAuth = FirebaseAuth.getInstance();
 
         signinbtn.setOnClickListener(view -> {
             loginUser();
@@ -63,7 +63,7 @@ public class SignInActivity extends AppCompatActivity {
             passwordt.setError("No Password Found");
             passwordt.requestFocus();
         } else {
-            mAuth.signInWithEmailAndPassword(email, password).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
+            nAuth.signInWithEmailAndPassword(email, password).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
                 @Override
                 public void onComplete(@NonNull Task<AuthResult> task) {
                     if (task.isSuccessful()) {

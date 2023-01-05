@@ -15,7 +15,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/poppins_bold"
-        android:text="@string/luzon"
+        android:text="Luzon"
         android:textColor="#d30000"
         android:textSize="40sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -26,7 +26,7 @@
         app:layout_constraintVertical_bias="0.064" />
 
     <ImageButton
-        android:id="@+id/imageButton"
+        android:id="@+id/backbtn_luzon"
         android:layout_width="50dp"
         android:layout_height="43dp"
         android:backgroundTint="#00100F0F"
@@ -41,6 +41,7 @@
         tools:ignore="ContentDescription" />
 
     <Button
+        android:id="@+id/btncar"
         android:layout_width="308dp"
         android:layout_height="60dp"
         android:background="@drawable/btn_bg"
@@ -57,7 +58,7 @@
         app:layout_constraintVertical_bias="0.895" />
 
     <Button
-        android:id="@+id/button22"
+        android:id="@+id/btn_reg1"
         android:layout_width="308sp"
         android:layout_height="50sp"
         android:background="@drawable/btn_bg"
@@ -74,7 +75,7 @@
         app:layout_constraintVertical_bias="0.165" />
 
     <Button
-        android:id="@+id/button18"
+        android:id="@+id/btnreg3"
         android:layout_width="308dp"
         android:layout_height="50dp"
         android:background="@drawable/btn_bg"
@@ -91,7 +92,7 @@
         app:layout_constraintVertical_bias="0.365" />
 
     <Button
-        android:id="@+id/button21"
+        android:id="@+id/btnreg5"
         android:layout_width="308dp"
         android:layout_height="50dp"
         android:background="@drawable/btn_bg"
@@ -108,7 +109,7 @@
         app:layout_constraintVertical_bias="0.675" />
 
     <Button
-        android:id="@+id/button19"
+        android:id="@+id/btnreg4a"
         android:layout_width="308dp"
         android:layout_height="50dp"
         android:background="@drawable/btn_bg"
@@ -125,7 +126,7 @@
         app:layout_constraintVertical_bias="0.466" />
 
     <Button
-        android:id="@+id/button20"
+        android:id="@+id/btnreg4b"
         android:layout_width="308dp"
         android:layout_height="50dp"
         android:background="@drawable/btn_bg"
@@ -143,7 +144,7 @@
 
     <Button
 
-        android:id="@+id/button16"
+        android:id="@+id/btnncr"
         android:layout_width="308dp"
         android:layout_height="50dp"
         android:background="@drawable/btn_bg"
@@ -161,7 +162,7 @@
 
     <Button
 
-        android:id="@+id/button14"
+        android:id="@+id/btnreg2"
         android:layout_width="308dp"
         android:layout_height="50dp"
         android:background="@drawable/btn_bg"
